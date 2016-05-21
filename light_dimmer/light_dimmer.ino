@@ -1,4 +1,4 @@
-#include "state_machine.h"
+#include "../state_machine/state_machine.h"
 #include "light_dimmer.h"
 
 // State variables
