@@ -1,4 +1,5 @@
-#include "../state_machine/state_machine.h"
+#include <state_machine.h>
+
 #include "light_dimmer.h"
 
 // State variables
@@ -94,7 +95,7 @@ StateMachine stateMachine;
 void setup() {
   // initialize the ledPin as an output:
   pinMode(ledPin, OUTPUT);
-  pinMode(13, OUTPUT);
+  pinMode(thinkingLedPin, OUTPUT);
   pinMode(motionPin, INPUT); 
 
   stateMachine.addState({OFF,       &noOpLoop});

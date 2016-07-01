@@ -6,7 +6,7 @@ const int ledPin = 5;      // the pin that the LED is attached to
 const long fadeInterval = 50;
 const int lightMax = 255; // maximum LED PWM value
 const int lightInc = 1; //LED PWM incremental value
-const int noMotionExpirationMs = 10000; // 10s
+const int noMotionExpirationMs = 5000; // 10s
 const int motionPin = 2;
 
 enum State {
